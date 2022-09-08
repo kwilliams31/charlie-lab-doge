@@ -8,6 +8,8 @@ $(document).ready(function() {
     console.log("user clicked doge one"); 
     $("#outputMsg").text("you lose not wow");
     $("#outputDiv").toggle();
+
+  
     
       // dogeOne click closing
        });
