@@ -3,6 +3,11 @@
     
 }
 
+/* applying font family to nav-brand */
+.navbar-brand{
+color: red;
+
+}
 h1 { color: blue;
 
 }
