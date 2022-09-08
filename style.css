@@ -1,0 +1,17 @@
+#outputDiv{
+  display:none
+    
+}
+
+/* applying font family to nav-brand */
+.navbar-brand{
+color: red;
+
+}
+h1 { color: blue;
+
+}
+
+h2 {color: #FFB74D;
+
+}
