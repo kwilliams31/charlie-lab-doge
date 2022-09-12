@@ -1,17 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
-  <!-- everything in here is invisble to user but title-->
   <meta charset="UTF-8">
   <title>Charlie-doge</title>
   <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'><link rel="stylesheet" href="./styles/style.css">
+<!--Cherry Cream Soda google font-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cherry+Cream+Soda&family=Space+Mono&display=swap" rel="stylesheet">
+
 
 </head>
 <body>
+  <!--
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
     <div class="container-fluid">
-      <!-- href is a hyperlink, anchor tag-->
+      href is a hyperlink, anchro tag
       <a class="navbar-brand" href="#">Kristina Williams</a>
     
     <ul class="navbar-nav">
@@ -21,64 +26,72 @@
       </ul>
       </div>
   </nav>
+-->
+
+
+  <div class="topnav">
+    <a class="navbar-brand" href="#">Kristina Williams</a>
+    <a class="nav-link active" href=https://github.com/kwilliams31/charlie-lab-doge>check out repo</a>
+   
+  </div>
 
 <!-- partial:index.partial.html -->
-<div class ="row">
+
   <h1> Welcome wower to the doge game!</h1>
 </div>
 
-<div class="row">
+
   <h2> Pick a doge if you dare</h2>
   </div>
 
+  
 
-<div class="row">
-  <div class="card col-md-5 offset-md-1">
-    <div class="card-body">
-      <h4 class="Doge1">Doge1</h4>
-      <img id="dogeOne" class="img-fluid" src = "https://mediacloud.theweek.com/image/private/s--e7YypXiU--/f_auto,t_primary-image-mobile@1/v1608153534/57106_article_full.jpg" alt = "doge1">
+  <!--
+  <div class="row">
+    <div class="card col-md-5 offset-md-1">
+      <div class="card-body">
+        <h4 class="Doge1">Doge1</h4>
+        <img id="dogeOne" class="img-fluid" src = "https://mediacloud.theweek.com/image/private/s--e7YypXiU--/f_auto,t_primary-image-mobile@1/v1608153534/57106_article_full.jpg" alt = "doge1">
+      </div>
     </div>
+  
+  
+    <div class="card co-md-5">
+      <div class="card-body">
+        <h4 class="card-title">Doge2</h4>
+        <img id = "card-title" class="img-fluid" src = "https://www.mohenesh.com/wp-content/uploads/2021/11/Doge-meme-2.webp" alt="doge2 with glasses">
+        
+      </div>
+    </div>
+  </div>
+  -->
+  <!-- closing div row tag-->
+  
+  <div id = "outputDiv" class ="row">
+    <div class="col-md-4 offset-md-4">
+    <h1 id = "outputMsg"> OUTPUT MESSAGE </h1>
+  </div>
   </div>
 
 
-  <div class="card co-md-5">
-    <div class="card-body">
-      <h4 class="card-title">Doge2</h4>
-      <img id = "card-title" class="img-fluid" src = "https://www.mohenesh.com/wp-content/uploads/2021/11/Doge-meme-2.webp" alt="doge2 with glasses">
-    </div>
-  </div>
-<!-- closing div row tag-->
-</div>
 
-<div id = "outputDiv" class ="row">
-  <div class="col-md-4 offset-md-4">
-  <h1 id = "outputMsg"> OUTPUT MESSAGE </h1>
-</div>
-</div>
-
- <!-- both img div class row closing -->
-</div>
-
-<!--
 <div class="row">
   <div class="col-md-6">   
     <div class="card">
     
-  <img id="dogeOne" class="img-fluid" src = "https://mediacloud.theweek.com/image/private/s--e7YypXiU--/f_auto,t_primary-image-mobile@1/v1608153534/57106_article_full.jpg" alt = "doge">
+  <img id="dogeOne" class="img-fluid img-thumbnail" src = "https://mediacloud.theweek.com/image/private/s--e7YypXiU--/f_auto,t_primary-image-mobile@1/v1608153534/57106_article_full.jpg" alt = "doge">
 </div> 
 </div>
 
   
   <div class="col-md-6">
-  <img id = "dogeTwo" class="img-fluid" src = "https://www.mohenesh.com/wp-content/uploads/2021/11/Doge-meme-2.webp">
+  <img id = "dogeTwo" class="img-fluid img-thumbnail" src = "photo/doge2.jpg" alt= "doge with glasses">
   </div>
--->
-
-<footer>
-  
-</footer> 
 
 
+
+  <!-- both img div class row closing -->
+    </div>
 <!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js'></script><script  src="./scripts/script.js"></script>
