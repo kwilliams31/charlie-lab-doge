@@ -2,112 +2,100 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Echo-game</title>
+  <title>Charlie-doge</title>
   <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'><link rel="stylesheet" href="./styles/style.css">
+<!--Cherry Cream Soda google font-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cherry+Cream+Soda&family=Space+Mono&display=swap" rel="stylesheet">
+<link href="styles/style.css" rel="stylesheet">
 
 </head>
 <body>
-<!-- partial:index.partial.html -->
-<!--
-cards for each game
-link to code and playing the game
-
-have place with list of things fixed
-
-accessibility, colors easy to read,
-can you see images, alt tags
-
-nu html checker
-correct all the read errors
-link to nu checker
-?showsource &doc
-got link after site was published
-after pasting github site to check
-and get output, then copy that url
-from nu site
-
-bs5 layout
-
-.draggable jquery methods
-blur() is also an event on blur
-when you leave a text both   
-fade() 
-but these methods on an element
-
-can contain them in an element so things
-only happen in that area
-
-<p> ¯\_(ツ)_/¯ </p>
+  <!--
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <div class="container-fluid">
+      href is a hyperlink, anchro tag
+      <a class="navbar-brand" href="#">Kristina Williams</a>
+    
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link active" href="https://kwilliams31.github.io/charlie-lab-doge/">check out repo</a>
+      </li>
+      </ul>
+      </div>
+  </nav>
 -->
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:wght@300&display=swap" rel="stylesheet">
 
-
-
-<div class="topnav">
+  <div class="topnav">
     <a class="navbar-brand" href="#">Kristina Williams</a>
-    <a class="nav-link active" href="https://github.com/kwilliams31/charlie-lab-doge" target="_blank">check out repo</a>
-  <a class="nav-link active" href= "https://validator.w3.org/nu/?doc=https%3A%2F%2Fkwilliams31.github.io%2FEcho-Cool-Games%2F" target="_blank">Code Validation</a>
+    <a class="nav-link active" href=https://github.com/kwilliams31/charlie-lab-doge>check out repo</a>
+   
   </div>
+
+<!-- partial:index.partial.html -->
+
+  <h1> Welcome wower to the doge game!</h1>
+</div>
+
+
+  <h2> Pick a doge if you dare</h2>
+  </div>
+
+  
+
+  <!--
+  <div class="row">
+    <div class="card col-md-5 offset-md-1">
+      <div class="card-body">
+        <h4 class="Doge1">Doge1</h4>
+        <img id="dogeOne" class="img-fluid" src = "https://mediacloud.theweek.com/image/private/s--e7YypXiU--/f_auto,t_primary-image-mobile@1/v1608153534/57106_article_full.jpg" alt = "doge1">
+      </div>
+    </div>
+  
+  
+    <div class="card co-md-5">
+      <div class="card-body">
+        <h4 class="card-title">Doge2</h4>
+        <img id = "card-title" class="img-fluid" src = "https://www.mohenesh.com/wp-content/uploads/2021/11/Doge-meme-2.webp" alt="doge2 with glasses">
+        
+      </div>
+    </div>
+  </div>
+  -->
+  <!-- closing div row tag-->
+  
+  <div id = "outputDiv" class ="row">
+    <div class="col-md-4 offset-md-4">
+    <h1 id = "outputMsg"> OUTPUT MESSAGE </h1>
+  </div>
+  </div>
+
 
 
 <div class="row">
-
-    <div id="titleBar">
-
-      <h1>Cool coded games</h1>
-      <h4>Welcome </h4>
-      
-  </div>
+  <div class="col-md-6">   
+    <div class="card">
+    
+  <img id="dogeOne" class="img-fluid img-thumbnail" src = "https://mediacloud.theweek.com/image/private/s--e7YypXiU--/f_auto,t_primary-image-mobile@1/v1608153534/57106_article_full.jpg" alt = "doge">
+</div> 
 </div>
 
-
-<div class="row">
-
-    <div class="col-md-5">
-<div id = "DogeGame" class="card">
-  <h1> ✰ Do you have wow? ✰</h1>
-  <h5 class="card-text">Doge Game v2</h5>
-  <p> Improvements:</p>
-  <p> 1. added animation </p>
-  <p> 2. more doge</p>
-  <p> 3. links open in new tab</p>
-  <a href="https://kwilliams31.github.io/charlie-lab-doge/" target="_blank">Doge Game</a>
-  <a href="https://github.com/kwilliams31/charlie-lab-doge" target="_blank">See Code</a>
-
-</div>
-  </div>
- 
-  <div class="col-md-2">
-    <!-- photo here? 
-add alfa ? -->
+  
+  <div class="col-md-6">
+  <img id = "dogeTwo" class="img-fluid img-thumbnail" src = "photo/doge2.jpg" alt= "doge with glasses">
   </div>
 
-<!--
-<button onclick="document.location='default.asp'">HTML Tutorial</button>
--->
-<div class="col-md-5">
-<div id = "NameGame" class="card">
-  <h1> ✰ Cool name facts! ✰</h1>
-  <h5 class="card-text">Cool Name Facts v2</h5>
-   <p> Improvements:</p>
-  <p>1. images getElementById()</p>
-  <p>2. links open in new tab </p>
-  <p>3. images placed in row, col</p>
 
-  <a href="https://kwilliams31.github.io/delta-cool-name/" target="_blank">Name Game</a>
-  <a href="https://github.com/kwilliams31/delta-cool-name" target="_blank">See Code</a>
 
-</div>
- </div>
-  <!-- closing row div -->
-</div>
+  <!-- both img div class row closing -->
+    </div>
 <!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js'></script><script  src="./scripts/script.js"></script>
+
 
 </body>
 </html>
